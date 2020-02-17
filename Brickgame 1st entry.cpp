@@ -89,7 +89,7 @@ int main(){
         b.h+=b.vx;
         b.k+=b.vy;
 
-        delay(0.0001);
+        delay(0.1);
 
         moveBall(b.inih,b.inik,b.h,b.k,b.r);
         b.inih=b.h;
